@@ -16,9 +16,5 @@ def cyclotron(matrix, particle=None):
     elif particle == "n":
         return accelerate_neutron(matrix)
     
-    
-matrix = create_matrix(4)
-result = cyclotron(matrix)
-for row in result:
-    print(row)
+
     
